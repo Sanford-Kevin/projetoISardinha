@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    font-size: 1rem;
+}
+
+header {
+    background-color: rgba(24, 31, 57, 255);
+    height: 125px;
+    padding: 1px;
+}
+
+.menu {
+    margin: 20px 50px 0 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.menu__item {
+    padding: 10px;
+}
+
+.logo {
+    padding-right: 125px;
+}
+
+.duvidas {
+    background-color: rgba(242, 212, 114, 255);
+    padding: 10px;
+}
+
+.artigo_principal{
+
+}
+
+.principal {
+    background-image: url(https://investidorsardinha.r7.com/wp-content/uploads/2023/07/4-acoes-de-empresas-que-vao-lucrar-com-a-inteligencia-artificial-1024x683.png.webp);
+    background-size: cover;
+    background-position: 50%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:375.516px ;
+    width: 667.594px;
+}
+
+
+
+.artigos {
+    margin-left: 40px;
+    margin-right: 40px;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.artigos ul {
+    list-style-type: none;
+}
+
+/* .article_image {
+    display: flex;
+    justify-content: flex-start;
+} */
+
+.sobre {
+    border: 5px solid green;
+}
+
+.container_article {
+    /* display: flex; */
+    flex-wrap: wrap;
+    border: 1px solid black;
+    margin: 30px;
+}
+
+.layout {
+    text-align: left;
+    /* display: flex; */
+}
+
+.layout li {
+    display: inline-block;
+    list-style-type: none;
+    color: #fff;
+}
+
+.rodape{
+    background-image: url();
+    color: #fff;
+    background-color: rgba(24, 31, 57, 255);
+    border: 1px solid black;
+    padding: 50px;
+}
